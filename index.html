@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julie Don - Home</title>
+    <title>About Julie Don</title>
     <style>
         body {
             margin: 0;
@@ -11,22 +11,28 @@
             color: #333;
             background: linear-gradient(to bottom, #6fa3ef, #eaf6ff);
         }
-        .container {
+        .navbar {
             display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding: 50px;
-            max-width: 1200px;
+            justify-content: center;
+            background-color: #2c3e50;
+            padding: 10px 0;
+        }
+        .navbar a {
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+        .navbar a:hover {
+            background-color: #6fa3ef;
+        }
+        .container {
+            max-width: 900px;
             margin: auto;
-        }
-        .image-section img {
-            width: 300px;
-            height: auto;
-            border-radius: 50%;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .bio-section {
-            max-width: 600px;
+            padding: 20px;
+            text-align: left;
         }
         h1 {
             font-size: 2.5em;
@@ -38,46 +44,32 @@
             line-height: 1.8;
             margin-bottom: 20px;
         }
-        a {
-            text-decoration: none;
-        }
-        .buttons {
-            margin-top: 20px;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 5px;
-            font-size: 1em;
-            color: #fff;
-            background-color: #2c3e50;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-        }
-        .button:hover {
-            background-color: #6fa3ef;
+        ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research Interests</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+    </div>
     <div class="container">
-        <div class="image-section">
-            <img src="profile.JPG" alt="Julie Don">
-        </div>
-        <div class="bio-section">
-            <h1>Julie Don</h1>
-            <p>Julie Don is a passionate technology consultant, certified Scrum Master, and AI enthusiast with a proven track record in application development, project management, and business strategy enhancement.</p>
-            <p>With dual Master’s degrees in Management Information Systems and Business Administration, Julie combines her technical expertise and leadership skills to bridge the gap between technology and business solutions. She has over 5 years of experience managing developer teams and crafting impactful solutions to meet organizational goals.</p>
-            <p>Julie is currently exploring the transformative potential of artificial intelligence to enhance customer experiences and drive innovation. Her upcoming research paper on AI's role in organizational success showcases her dedication to advancing technology in meaningful ways.</p>
-            <div class="buttons">
-                <a href="research.html" class="button">Research Interests</a>
-                <a href="cv.html" class="button">CV</a>
-                <a href="contact.html" class="button">Contact</a>
-            </div>
-        </div>
+        <h1>About Julie Don</h1>
+        <p>Hi, I’m Julie Don! I’m a lifelong learner, researcher, and community advocate, dedicated to leveraging technology to solve real-world challenges and empowering those around me. I graduated from the <strong>University of Nebraska Omaha</strong>, earning my undergraduate degree in <strong>Information Systems</strong>, followed by dual master’s degrees in <strong>Business Administration (MBA)</strong> and <strong>Management Information Systems (MIS)</strong>. </p>
+        
+        <p>I am passionate about <strong>artificial intelligence (AI)</strong> and its potential to transform industries and improve everyday lives. I’m particularly fascinated by <strong>neural networks</strong>—their ability to mimic human brain functions in analyzing data and recognizing patterns—and how they can create smarter, adaptive systems. I am also passionate about advancing <strong>human-AI interaction</strong>, designing systems that work alongside humans to enhance decision-making, creativity, and efficiency in both personal and corporate environments.</p>
+        
+        <p>Beyond my professional focus, I am committed to building strong communities. I co-founded <strong>Nebraska Women of Color in Tech</strong>, an organization that creates a sense of community, empowers women, and provides mentorship and career opportunities in tech. I also serve as the <strong>Co-Chair of the Professional Networking Committee</strong> at <strong>UPTIES</strong>, a Union Pacific Employee Resource Group (ERG), where I lead initiatives that support community organizations, such as <strong>College Possible</strong>, to create brighter futures for underserved students.</p>
+        
+        <p>In addition to these roles, I coordinated the <strong>Tech Department at Union Pacific</strong>, helping to lead a company-wide fundraising effort that raised an impressive <strong>$950,000 for United Way</strong>. </p>
+        
+        <p>When I’m not working, researching, or volunteering, I enjoy traveling, trying out new restaurants, and playing golf. </p>
+        
+        <p>Let’s connect! I’d love to share ideas, collaborate on meaningful projects, or discuss the latest trends in artificial intelligence, business, or community development.</p>
     </div>
 </body>
 </html>
-
